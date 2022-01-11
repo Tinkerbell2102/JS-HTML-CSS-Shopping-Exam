@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Check Out</title>
+    <link rel="stylesheet" href="CW412 Summitive 6955.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="CW412 Summitive 6955.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+<!-- Nav bar -->
+<header class="TopNav" class="SocialMedia">
+    <a href="https://www.instagram.com">
+    <img class="SocialMedia" src="images/Instagram.png" alt="Instagram" />
+    </a>
+    <a href="https://www.twitter.com">
+    <img class="SocialMedia" src="images/Twitter.png" alt="Twitter" />
+    </a>
+    <a href="https://www.Facebook.com">
+    <img class="SocialMedia" src="images/facebook.png" alt="Facebook" />
+    </a>
+    
+  <div>
+      <img id="RhinoLogo" src="images/RhinoPic.png" />
+  </div>
+
+  <nav role='navigation'>
+      <div id="menuToggle">
+
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+
+
+          <ul id="menu">
+              <a href="6955 ShopNow.html">
+                  <li>Home</li>
+              </a>
+              <a href="6955 ShopNow.html">
+                  <li>About the leather</li>
+              </a>
+              <a href="6955 ShopNow.html">
+                  <li>DIY Methods</li>
+              </a>
+              <a href="6955 ShopNow.html">
+                  <li>Brick & Mortar</li>
+              </a>
+              <a href="6955 ShopNow.html">
+                  <li>Shop Now</li>
+              </a>
+          </ul>
+      </div>
+  </nav>
+</header>
+<!--End of Header-->
+
+<!--Form-->
+<h2 style="text-align: center;">Just one more step...</h2>
+<p style="text-align: center;">Before you're new Leather Jackets can leave, we need you to fill in the folowing form:</p>
+
+<div class="div1">
+<form action="6955 ThankYou.html">
+        <div class="form1">
+            <!--Customer Info-->
+            <h3> <i class="fas fa-comment"></i>Customer Info:</h3>
+            <input type="text" id="FullName" name="FullName" placeholder="Your full name*" required>
+            <input type="text" id="Email" name="Email" placeholder="Your Email*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$" required>
+            <input type="tel" id="Pnumber" name="Pnumber" placeholder="Your Phone Number*" required>
+
+            <!--Shipping Details-->
+            <h3><i class="fas fa-comment"></i>Shipping Details:</h3>
+            <input type="text" id="adress" name="adress" placeholder="Your Street Number and name*" required>
+            <input type="text" id="city" name="city" placeholder="Your City*" required>
+            <input type="text" id="suburb" name="suburb" placeholder="Your Suburb*" required>
+
+            <label for="Province">Province:</label>
+            <select id="Prov" name="Province" required>
+                <option value="Gauteng">Gauteng</option>
+                <option value="Eastern Cape">Eastern Cape</option>
+                <option value="Free State">Free State</option>
+                <option value="KwaZulu-Natal">KwaZulu-Natal</option>
+                <option value="Limpopo">Limpopo</option>
+                <option value="Mpumalanga">Mpumalanga</option>
+                <option value="Northern Cape">Northern Cape</option>
+                <option value="North West">North West</option>
+                <option value="Western Cape">Western Cape</option>
+            </select>
+            <input type="text" id="Zip" name="Zip" placeholder="Your ZipCode*" required>
+            <textarea name="instruc" form="instruc">Enter text here...</textarea>      
+
+            <!--Billing Details-->
+            <h3><i class="fas fa-comment"></i>Billing Details:</h3>
+            <input type="text" id="Ncard" name="Ncard" placeholder="Name on card*" required>
+            <input type="text" id="CreditN" name="CreditN" placeholder="Credit Card Number*" maxlength="16" required>
+            <input type="text" id="ExDate" name="ExDate" placeholder="Expire Date*" required>
+            <input type="text" id="CVV" name="CVVe" placeholder="CVV*" maxlength="3" required>
+        
+        </div>
+    
+    </div>
+  
+        <div class="TCs">
+            <!--Ts and Cs-->
+            <h3><i class="fas fa-comment"></i>T's and C's</h3>
+            <p>Do you agree to our 
+                <a style="text-decoration: underline;" href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/">
+                Terms and Conditions?</a>
+            </p>
+        
+            <p>
+                <input type="checkbox" id="yes" name="yes" value="yes" required>
+                <label for="yes"> Yes</label>
+                <input type="checkbox" id="no" name="no" value="no">
+                <label for="no"> No</label>
+            </p>
+
+            <!--Submit button-->
+            <input type="submit" value="Ship Off!">
+        </div> 
+</form>
+<!--End of form-->
+<!--Footer-->
+<footer>
+    <div class="footer1">
+    <div class="w3-container">
+        <p>This website was designed by Laikin Barnard 6955 and all copyrights are reserved</p>
+        <p class="blank">_____</p>
+        <p class="footLink">
+            <a href="#">DIY</a> |
+            <a href="#">Home</a> |
+            <a href="#">About the Leather</a> |
+            <a href="#">Brick & Mortar</a> |
+            <a href="6955 ShopNow.html">Shop Now</a>
+            <img id="BottomImage" src="images/LOgo.jpg" >
+        </p>
+        <p>Join Our NewsLetter Team! 
+            <input type="email" id="NMail" name="NewsEMail" placeholder="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$">
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-white">Join</button>
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content" style="background-color: Black;">
+                    <div class="w3-container">
+                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                        <p>Thank you for joining our news letter!</p>
+                    </div>
+                </div>
+            </div>
+        </p>
+    </div>
+    </div>
+</footer>
+<!--End of footer--> 
+
+</body>
+</html>
